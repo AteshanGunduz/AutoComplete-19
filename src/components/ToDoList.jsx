@@ -20,13 +20,16 @@ export default function ToDoList() {
     setNewItemInput(event.target.value)
   }
 
-  const div = document.querySelector('.to-do-list-container')
+  
+  // const div = document.querySelector('.to-do-list-container')
+     
 
-  useEffect(() => {
-    if (div) {
-      div.scrollTop = div.scrollHeight
-    }
-  }, [listData])
+
+  // useEffect(() => {
+  //   if (div) {
+  //     div.scrollTop = div.scrollHeight
+  //   }
+  // }, [listData])
 
   function handleEnter(event) {
     if (newItemInput.trim()) {
